@@ -22,10 +22,16 @@ public class FirstClass {
 
 
         int a = 0;
-        while (a<10)
+        while (a < 100)
         {
-            System.out.println(a + "--> ");
-            a = a +2;
+            System.out.print(a + "--> ");
+            a = a + 2;
+            if (a == 32)
+            {
+                System.out.println("It's 32.");
+                // break;
+                continue;
+            }
             System.out.println(a);
         }
     }

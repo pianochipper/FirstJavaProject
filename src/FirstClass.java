@@ -21,19 +21,28 @@ public class FirstClass {
 
 
 
-        int a = 0;
-        while (a < 100)
+//        int a = 0;
+//        while (a < 100)
+//        {
+//            System.out.print(a + "--> ");
+//            a = a + 2;
+//            if (a == 32)
+//            {
+//                System.out.println("It's 32.");
+//                // break;
+//                continue;
+//            }
+//            System.out.println(a);
+
+        for (int x = 1; x < 30; x = x + 2)
         {
-            System.out.print(a + "--> ");
-            a = a + 2;
-            if (a == 32)
-            {
-                System.out.println("It's 32.");
-                // break;
-                continue;
+            System.out.println(x+\t);
+            for (int i=0; i<6; i++) {
+                System.out.print(("*"));
             }
-            System.out.println(a);
+            System.out.println("");
         }
+        System.out.println("/nDone.");
     }
 
 }
